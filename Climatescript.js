@@ -1,2 +1,2 @@
 const entradaTexto = document.getElementById("entrada-texto")
-const btnEnviar = document.getElementById("btn-envia")
+const btnEnvia = document.getElementById("btn-envia")
