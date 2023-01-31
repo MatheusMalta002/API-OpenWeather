@@ -22,34 +22,40 @@
     <div class="container display-flex">
         <div class="div-info-1 display-flex">
             <p class="titulo-agora formatacao-letras display-flex">Agora</p>
-            <p class="formatacao-temperatura display-flex">26</p>
-            <p class="formatacao-letras display-flex" id="cidade">São paulo</p>
+            <p class="formatacao-temperatura display-flex" ><img id="céu"><span id="temperatura">26</span></p>
+            <p class="formatacao-letras display-flex"><i class="fa-solid fa-location-dot"></i><span id="cidade">São paulo</span></p>
         </div>
         <div class="div-info-2 display-flex">
             <div class="icones">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <p class="formatacao-icones display-flex"><img id="ceu"></p>
+                <p class="formatacao-icones display-flex" id="wind"> <i class="fa-solid fa-wind icon"></i></p>
+                <p class="formatacao-icones display-flex" id="humidity"><i class="fa-solid fa-droplet icon"></i></p>
             </div>
             <div class="infos">
                 <div class="formatacao-infos display-flex">
-                    <p class="flex-start display-flex" id="nuvens">Nuvens</p>
-                    <p class="flex-start">4%</p>
+                    <p class="flex-start display-flex texto-infos-negrito">Céu</p>
+                    <p class="flex-start texto-infos-normal" id="nuvens">4%</p>
                 </div>
                 <div class="formatacao-infos display-flex">
-                    <p class="flex-start display-flex" id="vento">Vento</p>
-                    <p class="flex-start">3km/h</p>
+                    <p class="flex-start display-flex texto-infos-negrito">Vento</p>
+                    <p class="flex-start texto-infos-normal"  id="vento">3km/h</p>
                 </div>
                 <div class="formatacao-infos display-flex">
-                    <p class="flex-start display-flex" id="umidade">Umidade</p>
-                    <p class="flex-start">34%</p>
+                    <p class="flex-start display-flex texto-infos-negrito">Umidade</p>
+                    <p class="flex-start texto-infos-normal" id="umidade">34%</p>
                 </div>
             </div>
             <div class="titulo-hoje">
                 <p class="formatacao-titulo-hoje display-flex">Hoje</p>
                 <div class="min-max display-flex">
-                    <p class="max display-flex">Max</p>
-                    <p class="min display-flex">Min</p>
+                    <div class="conatiner-max max display-flex">
+                        <p class="texto-MAX display-flex">MAX</p>
+                        <p class="display-flex" id="temp_max"></p>
+                    </div>
+                    <div class="min display-flex">
+                        <p class="texto-MIN display-flex">MÍN</p>
+                        <p class="display-flex" id="temp_min"></p>
+                    </div> 
                 </div>
             </div>
         </div>
