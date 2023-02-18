@@ -12,8 +12,8 @@
     <li>Country flags(bandeiras) https://flagpedia.net/index</li>
 </ul>
 
-![PrintOpenweather2](https://user-images.githubusercontent.com/104574086/217312217-fd812ed3-97fe-44b0-a9f9-3ea5b6b91734.png)
+![weather today](https://user-images.githubusercontent.com/104574086/219876420-0d96f767-b2e7-4330-8f55-6eb4b25ff96c.png)
 
-![PrintOpenweather](https://user-images.githubusercontent.com/104574086/217312389-68fe7529-5faa-40b0-bf9f-c83a4cc245d2.png)
+![today](https://user-images.githubusercontent.com/104574086/219876931-81cd083e-2c4a-4efa-9023-42adc1a541ba.png)
 
 
